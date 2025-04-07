@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    environment {
+        REMOTE_USER = 'root@ip-172-31-14-224'
+        REMOTE_HOST = '3.38.99.67'
+        REMOTE_DIR = '/root/jenkins'
+        SSH_KEY = '/root/jenkins'
+    }
+
+    stages {
+        stage('Build on Remote Server') {
+            steps {
+                script {
+                    sshagent (credentials: ['ssh-credentials-id']) {
+                        sh """
+                        ssh -i $SSH_KEY $REMOTE_USER@$REMOTE_HOST 'cd $REMOTE_DIR && ./build_script.sh'
+                        """
+                    }
+                }
+            }
+        }
+        stage('Deploy on Remote Server') {
+            steps {
+                script {
+                    sshagent (credentials: ['ssh-credentials-id']) {
+                        sh """
+                        ssh -i $SSH_KEY $REMOTE_USER@$REMOTE_HOST 'cd $REMOTE_DIR && ./deploy_script.sh'
+                        """
+                    }
+                }
+            }
+        }
+    }
+}
+

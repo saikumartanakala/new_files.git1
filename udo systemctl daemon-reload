@@ -1,0 +1,142 @@
+-- Logs begin at Fri 2025-03-21 06:39:19 UTC, end at Sun 2025-03-23 06:58:57 UTC. --
+Mar 23 06:40:10 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:16] Unknown lvalue 'StartLimitBurst' in section 'Unit'[0m
+Mar 23 06:40:10 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:17] Unknown lvalue 'StartLimitIntervalSec' in section 'Unit'[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:16] Unknown lvalue 'StartLimitBurst' in section 'Unit'[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:17] Unknown lvalue 'StartLimitIntervalSec' in section 'Unit'[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:16] Unknown lvalue 'StartLimitBurst' in section 'Unit'[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:17] Unknown lvalue 'StartLimitIntervalSec' in section 'Unit'[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:40:18 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mstart request repeated too quickly for jenkins.service[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:40:19 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:16] Unknown lvalue 'StartLimitBurst' in section 'Unit'[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:17] Unknown lvalue 'StartLimitIntervalSec' in section 'Unit'[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:52:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mstart request repeated too quickly for jenkins.service[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:52:07 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:57:59 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:16] Unknown lvalue 'StartLimitBurst' in section 'Unit'[0m
+Mar 23 06:57:59 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39m[/usr/lib/systemd/system/jenkins.service:17] Unknown lvalue 'StartLimitIntervalSec' in section 'Unit'[0m
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:58:05 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Starting Jenkins Continuous Integration Server...
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service: main process exited, code=exited, status=1/FAILURE[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: jenkins.service holdoff time over, scheduling restart.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: Stopped Jenkins Continuous Integration Server.
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mstart request repeated too quickly for jenkins.service[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;31mFailed to start Jenkins Continuous Integration Server.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mUnit jenkins.service entered failed state.[0m
+Mar 23 06:58:06 ip-172-31-14-224.ap-northeast-2.compute.internal systemd[1]: [1;39mjenkins.service failed.[0m
